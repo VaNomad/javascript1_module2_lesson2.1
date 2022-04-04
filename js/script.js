@@ -12,3 +12,15 @@ function callbackFunction() {
 receivingFunction(callbackFunction);
 
 // --------------------------------- Question 2
+const prizes = ["Bag of bananas", "Box of frogs", "Car of clowns"];
+
+// for (let i = 0; i < prizes.length; i++) {
+//     console.log(`Prize ${i + 1}: ${prizes[i]}`);
+// }
+
+prizes.forEach(function(prize) {
+  console.log(prize);
+})
+
+// --------------------------------- Question 3
+
