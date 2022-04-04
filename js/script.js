@@ -29,5 +29,17 @@ setTimeout(function () {
 const numberOfSeconds = 5;
 
 // --------------------------------- Question 4
+let count = 0;
 
+const interval = setInterval(function () {
+  
+  count++;
+
+  if (count === 3) {
+    clearInterval(interval);
+  }
+  
+  console.log(count);
+  
+}, 1500)
 
