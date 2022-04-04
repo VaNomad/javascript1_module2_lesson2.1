@@ -23,4 +23,11 @@ prizes.forEach(function(prize) {
 })
 
 // --------------------------------- Question 3
+setTimeout(function () {
+  console.log("I waited 5 seconds before executing");
+}, 5000)
+const numberOfSeconds = 5;
+
+// --------------------------------- Question 4
+
 
